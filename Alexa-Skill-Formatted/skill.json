@@ -1,0 +1,33 @@
+{
+    "manifest": {
+        "publishingInformation": {
+            "locales": {
+                "en-US": {
+                    "name": "Hacker Mode",
+                    "summary": "A fun skill to simulate hacking scenarios.",
+                    "description": "This skill allows you to experience a simulated hacker mode interface.",
+                    "examplePhrases": [
+                        "Alexa, open Hacker Mode",
+                        "Start hacking"
+                    ],
+                    "keywords": [
+                        "hacker",
+                        "fun",
+                        "simulation"
+                    ]
+                }
+            },
+            "isAvailableWorldwide": true,
+            "testingInstructions": "Test by saying 'open Hacker Mode'.",
+            "category": "GAMES"
+        },
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "uri": "arn:aws:lambda:YOUR_REGION:YOUR_ACCOUNT_ID:function:YOUR_FUNCTION_NAME"
+                }
+            }
+        },
+        "manifestVersion": "1.0"
+    }
+}
